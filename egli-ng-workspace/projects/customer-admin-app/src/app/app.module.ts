@@ -7,8 +7,7 @@ import { HeaderComponent } from './core/layout/header/header.component';
 import { CustomersComponent } from './features/customers/customers.component';
 import { HomeComponent } from './features/home/home.component';
 import { CustomerItemComponent } from './features/customers/customer-item/customer-item.component';
-
-import { MatCardModule } from '@angular/material/card';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,7 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatCardModule
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
