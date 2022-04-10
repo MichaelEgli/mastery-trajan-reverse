@@ -1,2 +1,5 @@
 <p>customers works!</p>
-<app-customer-item></app-customer-item>
+<app-customer-item 
+    *ngFor="let customer of customers"
+    [customer]="customer"
+></app-customer-item>

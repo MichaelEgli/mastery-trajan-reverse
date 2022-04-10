@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Customer } from './model/customers';
 
 @Component({
   selector: 'app-customers',
@@ -6,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./customers.component.scss']
 })
 export class CustomersComponent implements OnInit {
+  customers: Customer[] = [
+    {
+      id: 1,
+      name: 'Customer 1',
+      surname: 'Hugo'
+    },
+    {
+      id: 2,
+      name: 'Customer 2',
+      surname: 'Mario'
+    }
+  ];
 
   constructor() { }
 
