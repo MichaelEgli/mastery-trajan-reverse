@@ -8,6 +8,8 @@ import { CustomersComponent } from './features/customers/customers.component';
 import { HomeComponent } from './features/home/home.component';
 import { CustomerItemComponent } from './features/customers/customer-item/customer-item.component';
 
+import { MatCardModule } from '@angular/material/card';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { CustomerItemComponent } from './features/customers/customer-item/custom
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
