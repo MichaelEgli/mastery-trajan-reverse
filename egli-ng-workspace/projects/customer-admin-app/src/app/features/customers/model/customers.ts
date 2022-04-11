@@ -1,5 +1,6 @@
 export interface Customer {
     id: number;
     name: string;
-    surname: string
+    surname: string;
+    birthday: string
   }

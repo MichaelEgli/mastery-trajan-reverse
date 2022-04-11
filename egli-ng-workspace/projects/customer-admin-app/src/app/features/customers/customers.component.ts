@@ -11,12 +11,14 @@ export class CustomersComponent implements OnInit {
     {
       id: 1,
       name: 'Customer 1',
-      surname: 'Hugo'
+      surname: 'Hugo',
+      birthday: '27.07.1977'
     },
     {
       id: 2,
       name: 'Customer 2',
-      surname: 'Mario'
+      surname: 'Mario',
+      birthday: '08.08.1988'
     }
   ];
 
