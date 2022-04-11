@@ -6,4 +6,11 @@ mat-card {
     background-color: #c95c29;
     margin-top: 25px;
     margin-bottom: 25px;
+
+    mat-icon {
+        padding: 5px;
+        border-radius: 50%;
+        background-color: #f79e6a;
+        margin: 0 10px 0 0;
+      }
 }
